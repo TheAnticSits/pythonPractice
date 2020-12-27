@@ -1,5 +1,6 @@
-from math import *
 
-my_num = -5
-print(sqrt(12.3))
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + "!  You are " + age + ".")
+
 
