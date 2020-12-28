@@ -12,5 +12,5 @@ if right_this_minute in odds:
 else:
     print("This is Not a odd minute.")
 
-for i in [1, 2, 3]:
-    print(i)
+for i in range(60):
+    print(i + 1)
