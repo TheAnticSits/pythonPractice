@@ -1,5 +1,8 @@
 
-coordinates = [(4, 5), (30,45)]
-test = coordinates[1]
+name = input("What is your name? ")
+age = input("What is your age? ")
+def sayhi(name, age):
+    print("Hello " + name + ",")
+    print("You are " + age + " years old.")
 
-print(test[1])
+sayhi(name, age)
