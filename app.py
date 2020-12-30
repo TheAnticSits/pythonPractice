@@ -7,17 +7,15 @@ turtle = Turtle()
 turtle.speed(10)
 
 turtle.up()
-turtle.left(180)
-turtle.forward(150)
 turtle.right(90)
-turtle.forward(300)
+turtle.forward(400)
 turtle.left(180)
 turtle.down()
 
 
 def draw_circle():
 
-    for j in range(3):
+    for j in range(6):
         def change_color():
             R = random.random()
             B = random.random()
@@ -28,7 +26,9 @@ def draw_circle():
             turtle.down()
             turtle.forward(50)
             turtle.left(8)
+            turtle.up()
             turtle.backward(40)
+            turtle.down()
             turtle.right(5)
             change_color()
 
