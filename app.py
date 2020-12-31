@@ -15,26 +15,38 @@ turtle.down()
 
 def draw_circle():
 
-    for j in range(6):
+    for j in range(20):
         def change_color():
             R = random.random()
             B = random.random()
             G = random.random()
             turtle.color(R, G, B)
 
-        for i in range(120):
+        def color_black():
+            R = 0
+            B = 0
+            G = 0
+            turtle.color(R, G, B)
+
+        turtle.fillcolor(15, 15, 15)
+        turtle.begin_fill()
+
+        for i in range(30):
+
+            color_black()
             turtle.down()
-            turtle.forward(50)
-            turtle.left(8)
-            turtle.up()
-            turtle.backward(40)
+            turtle.forward(10)
+            turtle.left(20)
+            change_color()
+            turtle.backward(3)
             turtle.down()
             turtle.right(5)
-            change_color()
+
+        turtle.end_fill()
 
         turtle.up()
-        turtle.right(55)
-        turtle.forward(70)
+        turtle.right(random.random())
+        turtle.forward(random.randrange(10, 700))
 
 
 
