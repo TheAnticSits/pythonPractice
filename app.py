@@ -1,7 +1,7 @@
 
-def cube(num):
-    return num*num*num
+is_male = True
 
-
-result = cube(4)
-print(result)
+if is_male:
+    print("You are a male")
+else:
+    print("You are not a male")
