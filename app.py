@@ -1,15 +1,23 @@
 
-num1 = float(input("Enter first number: "))
-op = (input("Enter operator: "))
-num2 = float(input("Enter second number: "))
+import turtle
+import random
 
-if op == "+":
-    print(num1 + num2)
-elif op == "-":
-    print(num1 - num2)
-elif op == "/":
-    print(num1 / num2)
-elif op == "*":
-    print(num1 * num2)
-else:
-    print("invalid operator")
+
+def change_color():
+    R = random.random()
+    B = random.random()
+    G = random.random()
+    turtle.color(R, G, B)
+
+
+for i in range(500):
+    i += 11
+    def fun_drawing():
+
+        turtle.forward(i)
+        turtle.right(48)
+        change_color()
+
+
+    fun_drawing()
+
