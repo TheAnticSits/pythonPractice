@@ -1,8 +1,8 @@
 
-secret_word = "giraffe"
+secret_word = input("What is the secret word: ")
 guess = ""
 guess_count = 0
-guess_limit = 3
+guess_limit = int(input("How many guesses to you get: "))
 out_of_guesses = False
 
 while guess != secret_word and not(out_of_guesses):
