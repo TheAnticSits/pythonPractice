@@ -1,8 +1,8 @@
 
-friends = ["jim", "karen", "Kevin"]
+def raise_to_power(base_num, pow_num):
+    result = 1
+    for index in range(pow_num):
+        result = result * base_num
+    return result
 
-for index in range(5):
-    if index == 0:
-        print("first iteration")
-    else:
-        print("not first")
+print(raise_to_power(9, 8))
