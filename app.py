@@ -1,4 +1,5 @@
 
 friends = ["jim", "karen", "Kevin"]
-for friend in friends:
-    print(friend)
+
+for index in range(len(friends)):
+    print(index)
