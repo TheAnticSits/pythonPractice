@@ -1,3 +1,4 @@
 
-for letter in "Giraffe Academy":
-    print(letter)
+friends = ["jim", "karen", "Kevin"]
+for friend in friends:
+    print(friend)
