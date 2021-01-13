@@ -1,15 +1,8 @@
 
-def translate(phrase):
-    translation = ""
-    for letter in phrase:
-        if letter.lower() in "aeiou":
-            translation = translation + "g"
-            if letter.isupper():
-                translation = translation + "G"
-        else:
-            translation = translation + letter
+'''
+This is stuff for comment
+'''
+# This prints a string
+print("Comments are fun")
+#print("comment out this line of code")
 
-    return translation
-
-
-print(translate(input("enter a phrase: ")))
