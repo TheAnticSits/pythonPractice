@@ -5,7 +5,9 @@ import random
 turtle.getscreen()
 t = turtle.Turtle()
 motion = 1
-wide = random.randrange(20, 50, 50)
+def move_turtle():
+    move = random.random()
+    return move
 
 def change_color():
     R = random.random()
@@ -16,12 +18,13 @@ def change_color():
 
 
 for i in range(200):
-    turtle.width(wide)
+    turtle.width(move_turtle())
     turtle.down
     turtle.forward(motion)
-    turtle.right(30)
+    turtle.right(5)
     motion += 1
     turtle.backward(10)
     change_color()
+    turtle.left(random.random())
 
 
