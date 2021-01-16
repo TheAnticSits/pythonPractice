@@ -1,8 +1,11 @@
 
 
-employee_file = open("if", "r")
+employee_file = open("employees", "r")
 
-print(employee_file.read())
+individual = (employee_file.readlines())
+
+print(individual)
+
 
 employee_file.close()
 
