@@ -1,10 +1,8 @@
 
 
-employee_file = open("employees", "r")
+employee_file = open("employees", "a")
 
-individual = (employee_file.readlines())
-
-print(individual)
+employee_file.write("\nKelly - Customer Service")
 
 
 employee_file.close()
