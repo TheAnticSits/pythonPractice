@@ -1,8 +1,8 @@
 
 
-employee_file = open("if", "r")
+employee_file = open("employees.txt", "r")
 
-print(employee_file.readable())
+print(employee_file.read())
 
 employee_file.close()
 
