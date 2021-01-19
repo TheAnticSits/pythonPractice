@@ -1,6 +1,8 @@
-from Student import Student
+from Chef import Chef
+from ChineseChef import ChineseChef
 
-student1 = Student("Oscar", "Accounting", 3.1)
-student2 = Student("Phyllis", "Business", 3.8)
+myChef = Chef()
+myChef.make_special_dish()
 
-print(student2.on_honor_roll())
+myChineseChef = ChineseChef()
+myChineseChef.make_special_dish()
